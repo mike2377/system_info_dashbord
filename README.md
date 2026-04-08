@@ -142,7 +142,7 @@ Creating readable terminal dashboards
 Adding logic and conditional warnings in Bash
 
 🚀 Future Improvements
-Add command line flags:
+Add command-line flags:
 --compact
 --verbose
 Save output to a log file
