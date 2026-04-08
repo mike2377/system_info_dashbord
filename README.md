@@ -10,7 +10,7 @@ The script provides a quick overview of system health, usage statistics, and run
 This project aims to:
 
 Practice Bash scripting fundamentals
-Use Linux CLI tools to collect system data
+Use Linux command-line tools to collect system data
 Display formatted system statistics in the terminal
 Build a small but real DevOps-style utility script
 
@@ -27,7 +27,7 @@ System identity, Uptime, Memory usage, Disk usage, Running processes, CPU usage,
 **Language**
 -Bash (Shell scripting)
 
-**Linux CLI Tools Used**
+**Linux command-line tools Used**
 -whoami
 -hostname
 -date
@@ -97,7 +97,7 @@ CPU Usage
 Current CPU Usage: 7.4%
 
 =============================================
-                   Dashboard Ok         
+                   Dashboard OK         
 =============================================
 
 ---
