@@ -25,7 +25,7 @@ echo -e "\033[0;32m $uptime_string \033[0m"
 echo ""
 
 #3. Memory Usage
-total_memory=$(free -h | awk '/^Mem:/{print $2}')
+total_memory=$(free -m | awk '/^Mem:/{print $2}')
 used_memory=$(free -m | awk '/^Mem:/{print $3}')
 free_memory=$(free -m | awk '/^Mem:/{print $4}')
 
