@@ -1,11 +1,11 @@
-##🖥️ Linux System Info Dashboard (Bash)
+# 🖥️ Linux System Info Dashboard (Bash)
 
 A beginner → intermediate Linux scripting project that generates a system information dashboard directly in the terminal using Bash and standard Linux CLI tools.
 The script provides a quick overview of system health, usage statistics, and running processes in a clean and formatted output.
 
 ---
 
-##🎯 Project Goals
+## 🎯 Project Goals
 
 This project aims to:
 
@@ -16,13 +16,13 @@ Build a small but real DevOps-style utility script
 
 ---
 
-##The script prints a dashboard including:
+## The script prints a dashboard including
 
 System identity, Uptime, Memory usage, Disk usage, Running processes, CPU usage, Warning  messages when resources are low
 
 ---
 
-##🛠 Tech Stack
+## 🛠 Tech Stack
 
 **Language**
 -Bash (Shell scripting)
@@ -45,7 +45,7 @@ System identity, Uptime, Memory usage, Disk usage, Running processes, CPU usage,
 
 ---
 
-##🖥 Features
+## 🖥 Features
 
 -Displays system identity (user, hostname, date)
 -Shows system uptime in human-readable format
@@ -60,53 +60,53 @@ System identity, Uptime, Memory usage, Disk usage, Running processes, CPU usage,
 
 ---
 
-##📷 Example Output
+## 📷 Example Output
 
-=======================================
-             SYSTEM INFO               
-=======================================
- User: mike 
- Hostname: mike 
- Date: Wed Apr 08 15:42:17 
----------------------------------------
------------------Uptime-----------------
- up 5 hours, 24 minutes 
+    =======================================
+             SYSTEM INFO
+    =======================================
+    User: mike
+    Hostname: mike
+    Date: Wed Apr 08 15:42:17 
+    ---------------------------------------
+    -----------------Uptime-----------------
+    up 5 hours, 24 minutes
 
-----------------Memory (MB)--------------
- Total: 15974 MB | Used: 8026 MB | Free: 423 MB 
+    ----------------Memory (MB)--------------
+    Total: 15974 MB | Used: 8026 MB | Free: 423 MBI
 
------------------Disk Usage---------------
- Total: 129G | Used: 23G | Free: 99G 
+    -----------------Disk Usage---------------
+    Total: 129G | Used: 23G | Free: 99G
 
-------------------Processes---------------
- Running: 334 
-Top 5 Memory-Consuming Processes:
-------------------------------------------
-PID: PID    | MEM: %MEM   | CMD: COMMAND
-PID: 6496   | MEM: 4.3    | CMD: /opt/google/chrome/chrome
-PID: 7082   | MEM: 4.0    | CMD: /opt/google/chrome/chrome
-PID: 17723  | MEM: 3.5    | CMD: /opt/google/chrome/chrome
-PID: 3580   | MEM: 3.4    | CMD: /snap/firefox/8054/usr/lib/firefox/firefox
-PID: 3797   | MEM: 3.4    | CMD: /opt/google/chrome/chrome 
+    ------------------Processes---------------
+    Running: 334 
+    Top 5 Memory-Consuming Processes:
+    ------------------------------------------
+    PID: PID    | MEM: %MEM   | CMD: COMMAND
+    PID: 6496   | MEM: 4.3    | CMD: /opt/google/chrome/chrome
+    PID: 7082   | MEM: 4.0    | CMD: /opt/google/chrome/chrome
+    PID: 17723  | MEM: 3.5    | CMD: /opt/google/chrome/chrome
+    PID: 3580   | MEM: 3.4    | CMD: /snap/firefox/8054/usr/lib/firefox/firefox
+    PID: 3797   | MEM: 3.4    | CMD: /opt/google/chrome/chrome 
 
- WARNING: Low memory! Only 423MB free. 
- High disk space 99GMB 
+    WARNING: Low memory! Only 423MB free. 
+    High disk space 99GMB 
 
-CPU Usage
-------------------------------------------
-Current CPU Usage: 7.4%
+    CPU Usage
+    ------------------------------------------
+    Current CPU Usage: 7.4%
 
-=============================================
-                   Dashboard OK         
-=============================================
+    =============================================
+                    Dashboard OK         
+    =============================================
 
 ---
 
 ## ⚙ Installation & Setup
 
-```Clone the repository:
+    ```Clone the repository:
 
-git clone https://github.com/mike2377/system_info_dashbord.git
+git clone <https://github.com/mike2377/system_info_dashbord.git>
 cd system_info_dashbord
 
 Give execution permission to the script:
@@ -119,7 +119,8 @@ Run the script:
 
 ---
 
-##📁 Project Structure
+## 📁 Project Structure
+
 sysinfo-dashboard/
 │
 ├── sysinfo.sh
@@ -152,5 +153,5 @@ Convert into a cron job for periodic monitoring
 👨🏽‍💻 Author
 Kembou Keumoe Ivan Michael
 Junior Fullstack Developer
-📩 Email: kman39457@email.com
+📩 Email: <kman39457@email.com>
 🌍 Based in Cameroon | Open to remote opportunities
