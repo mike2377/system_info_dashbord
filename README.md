@@ -55,50 +55,14 @@ System identity, Uptime, Memory usage, Disk usage, Running processes, CPU usage,
 -Shows Top 5 memory-consuming processes
 -Displays real-time CPU usage
 -Color-coded terminal output (green / red warnings)
--Warning alerts when Free memory is low  and Disk space is low
+-Warning alerts when Free memory is low  and Disk space is lowmais le lien il faut arranger je ne comprend pas
 -Clean and structured terminal dashboard
 
 ---
 
 ## 📷 Example Output
 
-    =======================================
-             SYSTEM INFO
-    =======================================
-    User: mike
-    Hostname: mike
-    Date: Wed Apr 08 15:42:17 
-    ---------------------------------------
-    -----------------Uptime-----------------
-    up 5 hours, 24 minutes
-
-    ----------------Memory (MB)--------------
-    Total: 15974 MB | Used: 8026 MB | Free: 423 MBI
-
-    -----------------Disk Usage---------------
-    Total: 129G | Used: 23G | Free: 99G
-
-    ------------------Processes---------------
-    Running: 334 
-    Top 5 Memory-Consuming Processes:
-    ------------------------------------------
-    PID: PID    | MEM: %MEM   | CMD: COMMAND
-    PID: 6496   | MEM: 4.3    | CMD: /opt/google/chrome/chrome
-    PID: 7082   | MEM: 4.0    | CMD: /opt/google/chrome/chrome
-    PID: 17723  | MEM: 3.5    | CMD: /opt/google/chrome/chrome
-    PID: 3580   | MEM: 3.4    | CMD: /snap/firefox/8054/usr/lib/firefox/firefox
-    PID: 3797   | MEM: 3.4    | CMD: /opt/google/chrome/chrome 
-
-    WARNING: Low memory! Only 423MB free. 
-    High disk space 99GMB 
-
-    CPU Usage
-    ------------------------------------------
-    Current CPU Usage: 7.4%
-
-    =============================================
-                    Dashboard OK         
-    =============================================
+![System Information ](assets/images/systeminfoexample.png)
 
 ---
 
@@ -121,8 +85,10 @@ Run the script:
 
 ## 📁 Project Structure
 
-sysinfo-dashboard/
-│
+system_info_dashboard/
+├── assets/
+│   └── images/
+│       ├── systeminfoexample.png
 ├── sysinfo.sh
 └── README.md
 
